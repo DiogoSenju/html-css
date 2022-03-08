@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+
+@font-face {
+            font-family:'fabella';
+            src: url('fabella-flower.ttf') format('truetype'), url('love larry.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+}
+
+
+        body {
+            font-family: 'work sans' Arial, Helvetica, sans-serif;
+            /*
+            Medida absolutas
+            cm, mm, in, px, pt, pc,
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+           
+            /* lighter normal bold bolder*/
+            
+        }
+
+        h1 {
+            
+            /* propriedade shorthand font
+            *font-style, font-weight, font-size, font-family
+            
+            font-family: 'work sans', sans-serif ;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+            /* no lugar disso aqui de cima eu usei apenas essa unica linha de baixo*/
+           
+            font-family: 'fabella'Times, serif;
+            font-weight: bolder;
+            font-style: normal;
+        }
+
+        h2 {
+            font: bold 2em 'work sans';
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat ex facilis, natus quas distinctio quia dolores doloribus, quidem quibusdam maxime quam totam aliquam magni ad, ipsa modi quasi! Pariatur, eius! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, corrupti culpa? Sit quibusdam nihil velit molestias modi, tenetur doloribus eaque, quidem, cupiditate repudiandae eius at animi error. Culpa, a consectetur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, quidem, assumenda porro maxime impedit eos suscipit illum, dolorem ducimus quasi tempora corrupti autem quo est ipsam harum quod. Nihil, dicta.</p>
+    <h2>Subtítulo do exercícios</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe amet quos modi dolor minus, accusantium temporibus quibusdam aut tempora odio voluptates corporis, facilis molestias porro quis, culpa sequi ipsum quo?</p>
+</body>
+</html>
