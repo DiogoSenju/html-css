@@ -121,7 +121,7 @@ main p {
     margin: 15px 0px;
     text-align: justify;
     text-indent: 30px;
-    font-size: 1em;
+    font-size: 3vh;
     line-height: 2em;
 }
 main strong {

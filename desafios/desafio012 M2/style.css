@@ -7,8 +7,8 @@
 
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
-    --fonte2: 'Passion One', cursivo;
-    --fonte3: 'Sriracha', cursiva;
+    --fonte2: 'Passion One', 'cursivo';
+    --fonte3: 'Sriracha', 'cursiva';
 
 }
 
@@ -59,8 +59,8 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 3.5vh;
-    /*font-size: clamp(1em, 3.5vw, 2em)*/
+   /* font-size: 3.5vh;*/
+    font-size: clamp(1em, 3.5vw, 2em)
 }
 
 section > p {
